@@ -1,0 +1,1101 @@
+@font-face {
+    font-family: 'winterthurcondensedregular';
+    src: url('../fonts/WinterthurCondensed-webfont.eot');
+    src: url('../fonts/WinterthurCondensed-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/WinterthurCondensed-webfont.woff') format('woff'),
+         url('../fonts/WinterthurCondensed-webfont.ttf') format('truetype'),
+         url('../fonts/WinterthurCondensed-webfont.svg#winterthurcondensedregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'chanticleerromanregular';
+    src: url('../fonts/CHANTICL-webfont.eot');
+    src: url('../fonts/CHANTICL-webfont.eot?#iefix') format('embedded-opentype'),
+         url('../fonts/CHANTICL-webfont.woff') format('woff'),
+         url('../fonts/CHANTICL-webfont.ttf') format('truetype'),
+         url('../fonts/CHANTICL-webfont.svg#chanticleerromanregular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body {
+	font-family: 'chanticleerromanregular', 'Minion Pro', Georgia, serif;
+	margin: 0 0;
+	background-image: url(/images/background.jpg);
+	font-size: 1em;
+	line-height: 1.25;	
+}
+
+
+header {
+	width: 960px;
+	min-height: 400px;
+	background-image: url(/images/header.jpg);
+	margin: 0;
+	background-position: right bottom;
+		
+}
+
+header p {
+	margin: 0;
+	padding: 180px 200px 100px 50px;
+	width: 500px;
+	font-size: 2em;
+	color: #FFF;
+}
+
+
+h1 {
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	color: #FFF;
+	padding: 0;	
+	margin: 5px 0px 0px 0px;
+}
+
+
+nav ul {
+	margin: 0;
+	padding: 0;
+	background-image: url(/images/navbg.png);
+	width: 960px;
+	min-height: 60px;
+}
+
+nav li {
+	list-style-type: none;	
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	float: right;
+	padding: 0;
+	margin: 0;
+}
+
+nav a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	background-image: url(/images/sprites.png);
+}
+
+#navhome {
+	width: 70px;
+	height: 60px;
+}
+
+#navhome a:link, #navHome a:visited {
+	background-position: 0 0;	
+}
+
+#navhome a:hover, #navHome a:active {
+	background-position: 0 -60px;	
+}
+
+#navhome a.selected {
+	background-position: 0 -120px;
+}
+
+#navbio {
+	width: 48px;
+	height: 60px;	
+}
+
+#navbio a:link, #navHome a:visited {
+	background-position: -70px 0;	
+}
+
+#navbio a:hover, #navHome a:active {
+	background-position: -70px -60px;	
+}
+
+#navbio a.selected {
+	background-position: -70px -120px;
+}
+
+#navoffers {
+	width: 73px;
+	height: 60px;
+}
+
+
+#navoffers a:link, #navHome a:visited {
+	background-position: -118px 0;	
+}
+
+#navoffers a:hover, #navHome a:active {
+	background-position: -118px -60px;	
+}
+
+#navoffers a.selected {
+	background-position: -118px -120px;
+}
+
+#navbooks {
+	width: 72px;
+	height: 60px; 	
+}
+
+#navbooks a:link, #navHome a:visited {
+	background-position: -191px 0;	
+}
+
+#navbooks a:hover, #navHome a:active {
+	background-position: -191px -60px;	
+}
+
+#navbooks a.selected {
+	background-position: -191px -120px;
+}
+
+#navarticles {
+	width: 86px;
+	height: 60px;	
+}
+
+#navarticles a:link, #navHome a:visited {
+	background-position: -263px 0;	
+}
+
+#navarticles a:hover, #navHome a:active {
+	background-position: -263px -60px;	
+}
+
+#navarticles a.selected {
+	background-position: -263px -120px;
+}
+
+#container {
+	margin: 0 auto;
+	width: 960px;	
+}
+
+article {
+	margin: 0;
+}
+
+.bio {
+	background-image: url(/images/biobg.jpg);
+	background-position: right bottom;
+	width: 960px;
+	min-height: 450px;
+}
+
+.biopage {
+	width: 640px;
+	float: left;
+}
+
+.biopage p {
+	width: 420px;
+	margin: 0;
+	padding: 5px;
+	float: right;
+	
+}
+
+.biopage h1 {
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: 2em;
+	line-height: 1em;
+	padding: 5px
+}
+
+.biopage h2 {
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: 1.5em;
+	line-height: 1em;
+	padding: 5px;
+	float: right;
+	padding: 0 200px 0 0;
+	width: 400px;
+}
+
+.biopage img {
+	width: 200px;
+	float: left;
+	padding: 50px 0 100px 0;
+}
+	
+	
+
+
+.bio p {
+	font-size: 1.5em;
+	line-height: 1.25em;
+	color: #fff;
+	width: 500px;
+	padding: 30px 30px 0 380px;
+	margin: 0;
+}
+
+.quoteauthor {
+	font-size: 1.25em;
+	line-height: 1.5em;
+	color: #fff;
+	padding: 0 10px 0 110px;
+	margin-top: 0;
+}
+
+.bio p:last-of-type {
+	font-size: 1em;
+	line-height: 1.25em;
+	color: #fff;
+	padding: 10px 10px 20px 500px;
+	width: 300px;
+}
+
+.biosection {
+	width: 320px;
+	min-height: 260px;
+	background-image: url(/images/biosection.jpg);
+	background-position: left bottom;
+	float: right;
+	
+}
+
+
+.bio a:link, .bio a:visited {
+	display: block;
+	width: 75px;
+	padding: 50px 20px 10px 870px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.bio a:hover, .bio a:active {
+	display: block;
+	width: 75px;
+	padding: 50px 20px 10px 870px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+.biosection p {
+	width: 150px;
+	font-size: 1em;
+	line-height: 1.25em;
+	color: #fff;
+	padding: 30px 30px 0 140px;
+	margin: 0;	
+}
+
+.biosection a:link, .biosection a:visited {
+	display: block;
+	width: 75px;
+	padding:  40px 20px 10px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.biosection a:hover, .biosection a:active {
+	display: block;
+	width: 75px;
+	padding:  40px 20px 10px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+.bookpage {
+	width: 640px;
+	float: left;	
+}
+
+.bookpage h1 {
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: 2em;
+	line-height: 1em;
+	padding: 20px;
+}
+
+
+.bookpage p {
+	width: 300px;
+	float: left;
+	padding: 40px 10px 10px 15px;	
+}
+
+.bookpage img {
+	width: 240px;
+	padding: 10px;
+	float: left;
+	clear: both;
+}
+
+.bookpage a:link, .bookpage a:visited {
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+	display: block;
+	padding: 250px 10px 40px 550px;
+}
+
+.bookpage a:hover, .bookpage a:active {
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+	display: block;
+	padding: 250px 10px 40px 550px;
+}
+	
+
+.offers {
+	width: 320px;
+	min-height: 260px;
+	background-image: url(/images/offers.jpg);
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.offers2 {
+	width: 320px;
+	min-height: 260px;
+	background-image: url(/images/offers.jpg);
+	float: right;
+	margin: 0;
+	padding: 0;
+
+}
+
+.offers3 {
+	width: 320px;
+	min-height: 260px;
+	background-image: url(/images/offers.jpg);
+	float: right;
+	margin: 0;
+	padding: 0;
+	clear: both;
+
+}
+
+.title1 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 2em;	
+	padding: 50px 0 50px 20px;
+	line-height: 2em;
+}
+
+.title2 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 4em;
+	padding: 50px 0 50px 10px;
+	line-height: .5em;
+	
+}
+
+.title11 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 2em;	
+	padding: 50px 0 50px 50px;
+	line-height: 2em;
+}
+
+.title12 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 4em;
+	padding: 50px 0 50px 40px;
+	line-height: .5em;
+	
+}
+
+.title111 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 2em;	
+	padding: 50px 0 50px 25px;
+	line-height: 2em;
+}
+
+.title121 {
+	color: #FFF;
+	text-transform: uppercase;
+	font-size: 4em;
+	padding: 50px 0 50px 10px;
+	line-height: .5em;
+	
+}
+
+
+.offers p {
+	margin: 0 auto;
+	padding: 5px;
+	width: 200px;
+	font-size: 2em;
+	color: #FFF;
+	text-align: center;
+	border-top: solid 1px #fff;
+	line-height: 1em;
+}
+
+.offers2 p {
+	margin: 0 auto;
+	padding: 5px;
+	width: 200px;
+	font-size: 2em;
+	color: #FFF;
+	text-align: center;
+	border-top: solid 1px #fff;
+	line-height: 1em;
+}
+
+.offers3 p {
+	margin: 0 auto;
+	padding: 5px;
+	width: 200px;
+	font-size: 2em;
+	color: #FFF;
+	text-align: center;
+	border-top: solid 1px #fff;
+	line-height: 1em;
+}
+
+
+.offers a:link, .offers a:visited {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 10px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.offers a:hover, .offers a:active {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 10px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+.offers2 a:link, .offers2 a:visited {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 10px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.offers2 a:hover, .offers2 a:active {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 10px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+.offers3 a:link, .offers3 a:visited {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 10px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.offers3 a:hover, .offers3 a:active {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 10px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+.offerspage {
+	width: 640px;
+	min-height: 540px;
+	background-image: url(/images/offerspage.jpg);
+	float: left;
+}
+
+.offerspage h1 {
+	width: 540px;
+	padding: 300px 50px 20px 100px;
+	margin: 0;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: 2.5em;
+	line-height: 1em;
+}
+
+.offerspage p {
+	width: 400px;
+	padding: 20px 30px 20px 200px;
+	
+	color: #fff;
+}
+
+.offerspage a:link, .offerspage a:visited {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 10px 550px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.offerspage a:hover, .offerspage a:active {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 10px 550px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+
+
+
+.books {
+	width: 320px;
+	min-height: 260px;
+	background-image: url(/images/books.jpg);
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+h2 {
+	width: 240px;
+	padding: 25px 55px 0px 55px;
+	font-size: 2em; 
+	color: #fff;
+}
+
+.books a:link, .books a:visited {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 5px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.books a:hover, .books a:active {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 5px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+.books2 {
+	width: 320px;
+	min-height: 260px;
+	background-image: url(/images/books.jpg);
+	float: right;
+	margin: 0;
+	padding: 0;
+
+}
+
+.books2 a:link, .books2 a:visited {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 5px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.books2 a:hover, .books2 a:active {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 5px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+.books3 {
+	width: 320px;
+	min-height: 260px;
+	background-image: url(/images/books.jpg);
+	float: right;
+	margin: 0;
+	padding: 0;
+	clear: both;
+
+}
+
+.books3 a:link, .books3 a:visited {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 5px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.books3 a:hover, .books3 a:active {
+	display: block;
+	width: 75px;
+	padding: 10px 20px 5px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+
+	
+
+.articles {
+	width: 320px;
+	min-height: 260px;
+	background-image: url(/images/articles.jpg);
+	float: left;
+	margin: 0;
+	padding: 0;
+}
+
+.articlespage {
+	width: 640px;
+	float: left;
+}
+
+
+
+
+.articles2 {
+	width: 320px;
+	min-height: 260px;
+	background-image: url(/images/articles.jpg);
+	float: right;
+	margin: 0;
+	padding: 0;
+	
+}
+
+
+h3 {
+	width: 240px;
+	padding: 0 55px;
+	font-size: 2em; 
+	color: #fff;
+	margin: 20px 0 0 0;
+}	
+
+.articles a:link, .articles a:visited {
+	display: block;
+	width: 75px;
+	padding: 28px 20px 5px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.articles a:hover, .articles a:active {
+	display: block;
+	width: 75px;
+	padding: 28px 20px 5px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+.articles2 a:link, .articles2 a:visited {
+	display: block;
+	width: 75px;
+	padding: 28px 20px 5px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #FFF;	
+	text-decoration: none;	
+}
+
+.articles2 a:hover, .articles2 a:active {
+	display: block;
+	width: 75px;
+	padding: 28px 20px 5px 230px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;	
+}
+
+.articlespage {
+	width: 640px;
+}
+
+.articlespage h1 {
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	color: #FFF;
+	padding: 0;	
+	font-size: 2em;
+	line-height: .5em;
+	margin: 25px 0px 0px 5px;
+}
+
+.articlespage ul {
+	padding: 20px 20px 20px 30px;
+}
+
+.articlespage li:nth-child(odd) {
+	margin: 0;
+	list-style-type: none;
+	display: block;
+	padding: 20px 50px 0 0;
+	line-height: .55em;
+}
+
+.articlespage li:nth-child(even) {
+	padding: 0 20px 10px 20px;
+	list-style-type: none;
+}
+
+.articlespage a:link, .articlespage a:visited {
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: 1.25em;
+	line-height: 1em;
+	color: #FFF;	
+	text-decoration: none;	
+	display: block;
+}
+
+.articlespage a:hover, .articlespage a:active {
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: 1.25em;
+	line-height: 1em;
+	color: #838383;	
+	text-decoration: none;	
+	display: block;
+}
+
+
+
+
+.buttons {
+	width: 960px;
+	clear: both;	
+}
+
+.buttons1 {
+	margin: 0;
+	padding: 0;	
+	width: 960px;
+	height: 60px;
+}
+
+.buttons li {
+	list-style-type: none;	
+	text-indent: 100%;
+	white-space: nowrap;
+	overflow: hidden;
+	float: left;
+	padding: 0;
+	margin: 30px;
+}
+
+.buttons a {
+	display: block;
+	height: 100%;
+	width: 100%;
+	border-radius: 15px;
+	background-image: url(/images/buttons.png);
+}
+
+#amazon {
+	width: 135px;
+	height: 36px;
+	margin: 30px 45px 30px 180px;
+}
+
+#amazon a:link, #navHome a:visited {
+	background-position: 0 0;	
+}
+
+#amazon a:hover, #navHome a:active {
+	background-position: 0 -36px;	
+}
+
+#amazon a.selected {
+	background-position: 0 -120px;
+}
+
+#facebook {
+	width: 135px;
+	height: 36px;
+	margin: 30px 45px 30px 45px;
+}
+
+#facebook a:link, #navHome a:visited {
+	background-position: -135px 0;	
+}
+
+#facebook a:hover, #navHome a:active {
+	background-position: -135px -36px;	
+}
+
+#facebook a.selected {
+	background-position: -135px -120px;
+}
+
+#subscribe {
+	width: 135px;
+	height: 36px;
+	margin: 30px 180px 30px 45px;
+}
+
+#subscribe a:link, #navHome a:visited {
+	background-position: -270px 0;	
+}
+
+#subscribe a:hover, #navHome a:active {
+	background-position: -270px -36px;	
+}
+
+#subscribe a.selected {
+	background-position: -270px -120px;
+}
+
+
+footer {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.bottomnav {
+	width: 960px;
+	min-height: 40px;
+	background-image: url(/images/footernavbg.png);	
+	clear: both;
+	margin: 0;
+	padding: 0; 
+}
+
+.bottomnav ul {
+	margin: 0;
+	padding: 0;
+	width: 960px;
+	min-height: 40px;
+	background-image: url(/images/footernavbg.png);
+	float: right;
+}
+
+.bottomnav li {
+	list-style-type: none;	
+	display: inline;
+	float: right;
+
+}
+
+
+
+#smallnavhome a:link, #smallnavhome a:visited {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;
+}
+
+#smallnavhome a:hover, #smallnavhome a:active {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #1d3c6b;	
+}
+
+#smallnavhome a.selected {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #4f020c;	
+}
+
+#smallnavbio a:link, #smallnavbio a:visited {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;
+}
+
+#smallnavbio a:hover, #smallnavbio a:active {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #1d3c6b;	
+}
+
+#smallnavbio a.selected {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #4f020c;	
+}
+
+#smallnavoffers a:link, #smallnavoffers a:visited {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;
+}
+
+#smallnavoffers a:hover, #smallnavoffers a:active {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #1d3c6b;	
+}
+
+#smallnavoffers a.selected {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #4f020c;	
+}
+
+#smallnavbooks a:link, #smallnavbooks a:visited {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;
+}
+
+#smallnavbooks a:hover, #smallnavbooks a:active {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #1d3c6b;	
+}
+
+#smallnavbooks a.selected {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #4f020c;	
+}
+
+#smallnavarticles a:link, #smallnavarticles a:visited {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;
+}
+
+#smallnavarticles a:hover, #smallnavarticles a:active {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #1d3c6b;	
+}
+
+#smallnavarticles a.selected {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #4f020c;	
+}
+
+#smallamazon a:link, #smallamazon a:visited {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;
+}
+
+#smallamazon a:hover, #smallamazon a:active {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #1d3c6b;	
+}
+
+#smallamazon a.selected {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #4f020c;	
+}
+
+#smallfacebook a:link, #smallfacebook a:visited {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;
+}
+
+#smallfacebook a:hover, #smallfacebook a:active {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #1d3c6b;	
+}
+
+#smallfacebook a.selected {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #4f020c;	
+}
+
+#smallsubscribe a:link, #smallsubscribe a:visited {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #838383;	
+	text-decoration: none;
+}
+
+#smallsubscribe a:hover, #smallsubscribe a:active {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #1d3c6b;	
+}
+
+#smallsubscribe a.selected {
+	padding: 10px;
+	font-family: 'winterthurcondensedregular', Helvetica, Arial, sanserif;
+	font-size: .95em;
+	color: #4f020c;	
+}
+
+footer p {
+	float: right;
+	font-size: .5em;
+}

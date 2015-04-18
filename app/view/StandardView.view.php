@@ -14,10 +14,11 @@ Class StandardView extends Disco\classes\View {
         $this->scriptSrc('/js/js.js');
 
         $this->styleSrc('/css/foundation.min.css');
-        $this->styleSrc('/css/css.css');
-
+        $this->styleSrc('/css/new-css.css');
+		//$this->styleSrc('/css/master.css');
         $this->script('$(document).foundation();');
-
+		$this->setBodyTemplate("%1\$s %2\$s %3\$s");
+		
     }//construct
 
     public function footer(){
